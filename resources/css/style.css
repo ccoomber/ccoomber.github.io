@@ -27,5 +27,6 @@ html {
 }
 
 #profile-pic {
+	/* Set profile picture to fixed size */
 	width: 100px;
 }
