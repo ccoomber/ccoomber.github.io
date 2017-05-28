@@ -1,0 +1,31 @@
+body {
+	/* Setup flexbody body */
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	/* Fill screen pinning footer to bottom */
+	flex: 1 0 auto;
+
+	/* Center align content */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+html { 
+	/* Set background image */
+	background: url(../images/image1.jpg) no-repeat center center fixed; 
+	background-size: cover;
+}
+
+.page-footer {
+	/* Remove padding as only copyright line used*/
+	padding-top: 0px;
+}
+
+#profile-pic {
+	width: 100px;
+}
