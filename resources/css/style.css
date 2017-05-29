@@ -3,6 +3,7 @@ body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
+	animation: fadeIn 2s;
 }
 
 main {
@@ -19,6 +20,24 @@ html {
 	/* Set background image */
 	background: url(../images/image1.jpg) no-repeat center center fixed; 
 	background-size: cover;
+}
+
+.btn.blue-grey.darken-2:hover {
+	/* Lighten button on hover - materialize doesn't support this natively on custom
+		coloured buttons. Color set to match blue-grey without darken */
+	background-color: #607d8b !important;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    5% {
+    	opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .page-footer {
