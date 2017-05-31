@@ -22,6 +22,7 @@ html {
 	background-size: cover;
 }
 
+/* Currently unused on site */
 .btn.blue-grey.darken-2:hover {
 	/* Lighten button on hover - materialize doesn't support this natively on custom
 		coloured buttons. Color set to match blue-grey without darken */
