@@ -26,6 +26,7 @@ html {
 	/* Set background image */
 	/*background: url(../images/image1.jpg) no-repeat center center fixed; 
 	background-size: cover;*/
+	height:100%;
 }
 
 /* Currently unused on site */
@@ -55,4 +56,9 @@ html {
 #profile-pic {
 	/* Set profile picture to fixed size */
 	width: 100px;
+}
+
+/* Fix height of action to ensure no resizing when twitter image loads*/
+#card-main-action {
+	height: 34px;
 }
