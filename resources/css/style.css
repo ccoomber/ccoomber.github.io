@@ -1,8 +1,9 @@
 body {
 	/* Setup flexbody body */
 	display: flex;
-	min-height: 100vh;
-	max-height: 100vh;
+	height:100%;
+	width: 100%;
+	position: absolute;
 	flex-direction: column;
 	animation: fadeIn 2s;
 }
