@@ -29,21 +29,21 @@ html {
 /* Currently unused on site */
 .btn.blue-grey.darken-2:hover {
 	/* Lighten button on hover - materialize doesn't support this natively on custom
-		coloured buttons. Color set to match blue-grey without darken */
+	coloured buttons. Color set to match blue-grey without darken */
 	background-color: #607d8b !important;
 }
 
 /* Provides fade in after brief pause*/
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    5% {
-    	opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+	0% {
+		opacity: 0;
+	}
+	5% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 .page-footer {
@@ -59,4 +59,16 @@ html {
 /* Fix height of action to ensure no resizing when twitter image loads*/
 #card-main-action {
 	height: 34px;
+}
+
+/* Override cookie consent button styling to fit other buttons - class cc-btn must be used 
+		as it registers clicks */
+.cookie-dismiss-override {
+	display: inline-block;
+	padding: 0 2rem;
+	font-size: 1rem;
+	font-weight: normal;
+	border: none;
+	border-radius: 2px;
+	text-align: center;
 }
