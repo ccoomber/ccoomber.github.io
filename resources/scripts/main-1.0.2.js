@@ -23,4 +23,8 @@ window.addEventListener("load", function(){
 			link: '<a aria-label="learn more about cookies" tabindex="0" class="cc-link" href="{{href}}" target="_blank" rel="noreferrer">Learn more</a>',
 		},
 		window: '<div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window z-depth-5 {{classes}}"><!--googleoff: all-->{{children}}<!--googleon: all--></div>'
-	})});
+	});
+
+	document.getElementById("copyright-year").textContent = new Date().getFullYear();
+
+});
